@@ -4,7 +4,7 @@
   
   <PokemonOption  />
 
-  <PokemonPicture :pokemonId="6" :showPokemon="true"/>
+  <PokemonPicture :pokemonId="152" :showPokemon="true"/>
   
 </template>
 
@@ -12,6 +12,9 @@
 import PokemonOption from '../components/PokemonOption.vue'
 import PokemonPicture from '../components/PokemonPicture.vue'
 
+import getPokemonOptions from '@/helpers/getPokemonOption'
+
+console.log(getPokemonOptions())
 
 export default {
   components: { PokemonOption, PokemonPicture },
