@@ -13,6 +13,7 @@ const getPokemonOptions = async () => {//luego llamamos a getPokemons option par
     
    const pokemons = await getPokemonsNames( mixedPokemons.splice(0,4))
 
+   //console.table(pokemons)
    return pokemons
 }
 const getPokemonsNames =async ([a,b,c,d] = [])=>{
